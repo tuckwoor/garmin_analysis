@@ -10,6 +10,7 @@ Garmin Analysis is a project designed to analyze and visualize data from Garmin 
 - Analyze various fitness metrics (e.g., heart rate, pace, distance)
 - Generate visualizations and reports
 - Track progress and set goals
+- Determine optimal exercise days for better sleep balance
 
 ## Installation
 
@@ -81,3 +82,24 @@ If you encounter issues with data fetching:
 3. Verify that the Garmin Connect API is operational
 
 For any other issues, please open an issue on the GitHub repository.
+
+## Analysis and Visualization
+
+The `garmin_analysis.py` script is designed to help users find the optimal day of the week for heavier exercise to better balance their sleep patterns. By analyzing the relationship between exercise intensity and sleep quality across different days of the week, the script provides insights into when more intense workouts might lead to improved sleep.
+
+### Sample Visualizations
+
+#### Combined Score Analysis
+![Combined Score Analysis](screenshots/combined_score.png)
+
+This visualization shows the combined score of exercise intensity and sleep quality for each day of the week. Higher scores indicate a better balance between exercise and sleep.
+
+#### Additional Plots
+![Additional Plots](screenshots/additional_plots.png)
+
+These plots provide more detailed insights into various metrics, such as:
+- Exercise intensity by day of the week
+- Sleep quality by day of the week
+- Correlation between exercise intensity and sleep quality
+
+By examining these visualizations, users can identify patterns and make informed decisions about when to schedule their more intense workouts for optimal sleep balance.
