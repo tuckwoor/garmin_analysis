@@ -90,12 +90,12 @@ The `garmin_analysis.py` script is designed to help users find the optimal day o
 ### Sample Visualizations
 
 #### Combined Score Analysis
-![Combined Score Analysis](screenshots/combined_score.png)
+![Combined Score Analysis](./combined_score.png)
 
 This visualization shows the combined score of exercise intensity and sleep quality for each day of the week. Higher scores indicate a better balance between exercise and sleep.
 
 #### Additional Plots
-![Additional Plots](screenshots/additional_plots.png)
+![Additional Plots](./additional_plots.png)
 
 These plots provide more detailed insights into various metrics, such as:
 - Exercise intensity by day of the week
